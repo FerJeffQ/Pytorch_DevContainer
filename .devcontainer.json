@@ -1,0 +1,14 @@
+{
+  "name": "pytorch",
+  "dockerFile": "Dockerfile",    
+  "runArgs": [
+    "--gpus", "all"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ]
+}
